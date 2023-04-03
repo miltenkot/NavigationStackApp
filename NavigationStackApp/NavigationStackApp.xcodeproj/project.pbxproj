@@ -21,6 +21,7 @@
 		13539EC729DB476800D2A08B /* DressesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13539EC629DB476800D2A08B /* DressesRouter.swift */; };
 		13539EC929DB47C300D2A08B /* ShoesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13539EC829DB47C300D2A08B /* ShoesRouter.swift */; };
 		13539ECB29DB529500D2A08B /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13539ECA29DB529500D2A08B /* BackButton.swift */; };
+		13539ECD29DB567700D2A08B /* BackButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13539ECC29DB567700D2A08B /* BackButtonModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		13539EC629DB476800D2A08B /* DressesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DressesRouter.swift; sourceTree = "<group>"; };
 		13539EC829DB47C300D2A08B /* ShoesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoesRouter.swift; sourceTree = "<group>"; };
 		13539ECA29DB529500D2A08B /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		13539ECC29DB567700D2A08B /* BackButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				13539EB629DB440A00D2A08B /* NavigationState.swift */,
 				13539EB829DB442200D2A08B /* Routes.swift */,
 				13539ECA29DB529500D2A08B /* BackButton.swift */,
+				13539ECC29DB567700D2A08B /* BackButtonModifier.swift */,
 			);
 			path = NavigationStackApp;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				13539EC129DB46E900D2A08B /* DressesThirdScreen.swift in Sources */,
 				13539EBF29DB46B700D2A08B /* DressesSecondScreen.swift in Sources */,
 				13539ECB29DB529500D2A08B /* BackButton.swift in Sources */,
+				13539ECD29DB567700D2A08B /* BackButtonModifier.swift in Sources */,
 				13539EC529DB471200D2A08B /* ShoesSecondScreen.swift in Sources */,
 				13539EB729DB440A00D2A08B /* NavigationState.swift in Sources */,
 				13539EA829DB437A00D2A08B /* NavigationStackAppApp.swift in Sources */,

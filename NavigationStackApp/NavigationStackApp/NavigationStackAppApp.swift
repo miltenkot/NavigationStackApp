@@ -15,31 +15,16 @@ struct NavigationStackAppApp: App {
         WindowGroup {
             NavigationStack(path: $navigationState.routes) {
                 ContentView()
-                    
                     .navigationDestination(for: Routes.self) {
                         switch $0 {
                         case .dressesModule(let routes):
                             DressesRouter(routes: routes)
                                 .configure()
-                                .navigationBarBackButtonHidden(true)
-                                .toolbar {
-                                    ToolbarItem(placement: .navigationBarLeading) {
-                                        BackButton {
-                                            navigationState.routes.removeLast()
-                                        }
-                                    }
-                                }
+                                .withCustomBackButton()
                         case .shoesModule(let routes):
                             ShoesRouter(routes: routes)
                                 .configure()
-                                .navigationBarBackButtonHidden(true)
-                                .toolbar {
-                                    ToolbarItem(placement: .navigationBarLeading) {
-                                        BackButton {
-                                            navigationState.routes.removeLast()
-                                        }
-                                    }
-                                }
+                                .withCustomBackButton()
                         }
                     }
             }
